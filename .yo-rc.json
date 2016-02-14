@@ -1,0 +1,26 @@
+{
+  "generator-jhipster": {
+    "baseName": "vcta",
+    "packageName": "com.noptech.vcta.jhipster",
+    "packageFolder": "com/noptech/vcta/jhipster",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "enableTranslation": false,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "9681515f1dc9cc9d1434c1a81ac2c77fcd04bc0d",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ]
+  }
+}

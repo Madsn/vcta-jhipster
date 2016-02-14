@@ -1,0 +1,10 @@
+vcta-postgresql:
+  container_name: vcta-postgresql
+  image: postgres:9.4.5
+  # volumes:
+  #   - ~/volumes/jhipster/vcta/postgresql/:/var/lib/postgresql/
+  environment:
+    - POSTGRES_USER=vcta
+    - POSTGRES_PASSWORD=
+  ports:
+    - "5432:5432"
